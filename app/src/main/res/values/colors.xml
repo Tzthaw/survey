@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#008577</color>-->
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#ED1B23</color>
+
+    <!--<color name="colorAccent">#D81B60</color>-->
+
+    <color name="colorSplashBG">#FFFFFF</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="white_trans">#99FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="grey_200">#C8C8C8</color>
+    <color name="resq_green">#55AE40</color>
+    <color name="resq_orange">#FFA02F</color>
+    <color name="resq_red">#D85D60</color>
+    <color name="resq_bg">#e6e6e6</color>
+    <color name="resq_reject_bg">#E91E63</color>
+
+
+    <color name="black_trans80">#E0E0E0</color>
+
+    <color name="black_trans80_2">#33000000</color>
+
+    <color name="survey_red">#ED1B23</color>
+    <color name="survey_blue">#2755B7</color>
+    <color name="survey_grey_240">#F0F0F0</color>
+    <color name="survey_btn_blue">#06A5EB</color>
+
+
+
+
+
+</resources>

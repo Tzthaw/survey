@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="true"
+    android:fillViewport="true"
+    android:minWidth="0dp"
+    android:minHeight="0dp">
+
+
+    <!--android:theme="@style/ThemeOverlay.AppCompat.ActionBar"-->
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_login_intro"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="@dimen/card_default_elevation"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+        <ImageView
+
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:paddingRight="64dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo_for_toolbar"
+            />
+
+        <!--<TextView-->
+        <!--android:id="@+id/tv_t_and_c_title"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:layout_margin="4dp"-->
+        <!--android:padding="4dp"-->
+        <!--android:text="@string/tandc_title"-->
+        <!--android:textAlignment="center"-->
+        <!--android:textColor="@color/survey_red"-->
+        <!--android:textSize="18sp" />-->
+
+    </android.support.v7.widget.Toolbar>
+
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar_login_intro">
+
+
+        <TextView
+                android:id="@+id/textView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_xxxlarge"
+                android:text="@string/login_intro_header"
+                android:textAlignment="center"
+                android:textSize="@dimen/text_regular_2x"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+        <com.facebook.login.widget.LoginButton
+            android:id="@+id/fb_login_button_login_intro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"
+            android:visibility="gone"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:background="@drawable/btn_rounded_red"
+            android:textColor="@color/white"
+            android:id="@+id/btn_loginpage_login"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/login_btn_height"
+            android:layout_marginBottom="8dp"
+            android:text="@string/emailLogin"
+            android:textSize="@dimen/text_regular"
+            app:layout_constraintBottom_toTopOf="@+id/textView10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:background="@drawable/btn_rounded_blue"
+            android:textColor="@color/white"
+            android:id="@+id/btn_login_fblogin"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/login_btn_height"
+            android:layout_marginBottom="16dp"
+            android:text="@string/facebookLogin"
+            android:textSize="@dimen/text_regular"
+            app:layout_constraintBottom_toTopOf="@+id/txt_login_intro_register_link"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/main_image_logo"
+                android:layout_marginTop="24dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView"
+                app:srcCompat="@raw/banner_img" android:layout_marginBottom="8dp"
+                app:layout_constraintBottom_toTopOf="@+id/btn_loginpage_login"
+                app:layout_constraintHorizontal_bias="0.0" app:layout_constraintVertical_bias="0.118"/>
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="@string/or"
+            android:textSize="@dimen/text_heading_1x"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/btn_login_fblogin"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/txt_login_intro_register_link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="16dp"
+             app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.constraint.ConstraintLayout>

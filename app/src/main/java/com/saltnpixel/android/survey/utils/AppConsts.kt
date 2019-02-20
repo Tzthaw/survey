@@ -1,0 +1,32 @@
+package com.saltnpixel.android.survey.utils
+
+const val BASE_URL="https://survey.saltcloudserver.com/api/user/"
+const val FAILURE_ERROR="The user credentials were incorrect."
+const val EMPTY_ERROR="Cannot Success Login"
+const val SERVER_ERROR="Something went wrong."
+const val access_token="eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjVhYmQ4YTIyM2M5MGExOTQ5MGRjMjBmOTY5MmY2MTlhYTNkOTIyNWVlN2RkY2JhNDc4ZGU1NGQ1NTk3M2U0YTRjMTFhNzE1OGQ0Mjc4N2Y5In0.eyJhdWQiOiIyIiwianRpIjoiNWFiZDhhMjIzYzkwYTE5NDkwZGMyMGY5NjkyZjYxOWFhM2Q5MjI1ZWU3ZGRjYmE0NzhkZTU0ZDU1OTczZTRhNGMxMWE3MTU4ZDQyNzg3ZjkiLCJpYXQiOjE1NDY0ODI0MTIsIm5iZiI6MTU0NjQ4MjQxMiwiZXhwIjoxNTc4MDE4NDEyLCJzdWIiOiI0NSIsInNjb3BlcyI6W119.oM_B-LJlrOzs3I7BXFzsGjnaMMJTwWlh38tcr-rFowgNsNp3EkCTfvgaq6-o9iZYYFVdNNFwkwtabDovBi2xUZtxQHffe4oiSVS6JKWDmHl5DlH4oMxhkWS25eAysnV3Dr3Eb3KUP9wqGOiEzsIKZnQUcFxnP1xjiu7qvq77y7Hk9oaYDV7UAhfiZPl7kmjNmfEpMd3yVNXAbPPF-vJxKWgOdSLcpqPY8PNu4eDCLHPmc7c_GYicQ1Sbcq9BNBHQ4F33WgXCse4u0soIhoXcawXsVo54pBCKRAn6YuGW5Les6ilGgYM7uKvzEUClgRjPix7YVLEhzTcFkvLkRaWLECBCL11nfyRwnihS5qOLBRbtKXz3GVzuAhumXM9Df7z1dwpTou2QVNqyTfdqH34WkSaZ-joxT6eiAKBYrAidj_I--ATWJBNhGyMkY3kKSPG4on-dmdJjvzsoMo3ZI6Te36_XsKH1NTnJpl3PKSOuUHvsIZnb6oVNECEtvxuZI8uFAn48ha5gnvaW88xEt3QeJP85F5qEKtZTAhL5fk1nHYg7-iZOw-UCgomjfjtHTYN0RNsDcDPob66R70O4JBRvbdPnKJgRyiiYW8RmT94MfiWhDtjnpppEWbBvO9d5AA0md8bOn8S3c5ofWSZxWpA4yqi-uFpfNRKDJ9g4r57uojU"
+
+val USER_NAME_KEY = "profile_username"
+val REWARD_LIST_KEY = "profile_reward_list"
+val REDEEMED_LIST_KEY = "profile_redeemed_list"
+
+//KEY for Division/state list with city data
+val CITY_LIST_API_NAME_KEY = "all_div_city"
+
+//KEY for category list
+val CATEGORY_LIST_API_NAME_KEY = "category"
+
+//KEY for welcomeSurvey Answers
+const val WELCOME_SURVEY_FIRST_ANSWER_KEY = "welcomeFirstAnswer"
+const val WELCOME_SURVEY_SECOND_ANSWER_KEY = "welcomeSecondAnswer"
+const val WELCOME_SURVEY_THIRD_ANSWER_KEY = "welcomeThirdAnswer"
+const val WELCOME_SURVEY_FOURTH_ANSWER_KEY = "welcomeFourthAnswer"
+const val WELCOME_SURVEY_FIFTH_ANSWER_KEY = "welcomeFifthAnswer"
+
+//Key for saved divison and city
+val SAVED_DIVISOIN_KEY = "SavedDivisoin"
+val SAVED_CITY_KEY = "SavedCity"
+
+//Key for saved Profile URL link
+val SAVED_PROFILE_IMAGE_URL_KEY = "SavedProfileImageURL"
+

@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Survey</string>
+    <string name="sample_string"><![CDATA[some test line 1 <br />some test line 2]]></string>
+
+    <string name="preference_file_key">survey_shared_preference</string>
+
+    <string name="saved_user_old_status">user_status_for_old_or_new</string>
+
+    <string name="saved_access_token">accesstoken</string>
+    <string name="saved_access_token_default_key">""</string>
+
+    <string name="saved_category_id_key">SavedCategoryID</string>
+
+    <!--hashkye 2jmj7l5rSw0yVb/vlWAYkK/YBwk= -->
+    <!--<string name="facebook_app_id">346463862576916</string>-->
+    <!--<string name="fb_login_protocol_scheme">fb346463862576916</string>-->
+    <string name="facebook_app_id">228564627824833</string>
+    <string name="fb_login_protocol_scheme">fb228564627824833</string>
+
+    <string name="saved_survey_questions_key">savedSurveyQuestions</string>
+    <string name="saved_number_of_surveyQ_key">savedNumberOfSurveyQ</string>
+    <string name="saved_current_surveyQ_key">savedCurrentSurveyQCounter</string>
+    <string name="saved_survey_answers_key">savedSurveyAnswers</string>
+
+    <string name="saved_survey_qcount_key">savedSurveyQCount</string>
+    <string name="saved_survey_id_key">savedSurveyID</string>
+
+    <string name="saved_welcome_survey_answers_key">savedWelcomeSurveyAnswers</string>
+    <string name="landing_screen_text">Earn money and reward\nby taking surveys</string>
+
+    <string name="dummy_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et odio bibendum, scelerisque eros ac, pretium massa. Proin condimentum eu urna id aliquam. Maecenas sagittis massa pharetra velit condimentum, vel fringilla dolor scelerisque. Etiam lacinia volutpat ex consectetur pretium. Curabitur tristique augue mauris, at pharetra elit consectetur nec. Pellentesque ac euismod nisl, ac tincidunt erat. Ut at imperdiet enim. Praesent congue eget sapien et porttitor. Duis suscipit nisi sit amet dictum semper. Curabitur non pellentesque libero.
+
+\n\nMorbi luctus augue quis ipsum pellentesque porttitor. Nulla faucibus enim egestas dui tempor, at placerat orci malesuada. Cras cursus ullamcorper quam, sed venenatis ipsum egestas eget. Nunc pulvinar molestie mauris, sit amet laoreet elit aliquet et. Donec scelerisque, magna ut euismod maximus, sem lacus vehicula neque, sit amet aliquam justo enim ut tortor. Praesent semper lacus lacus, ut eleifend turpis laoreet non. Donec tristique purus a lorem commodo bibendum. Proin et efficitur turpis, sollicitudin congue nulla.
+
+\n\nDonec nisi eros, pellentesque fringilla orci sit amet, accumsan ultricies sapien. Donec rutrum, mi non lacinia malesuada, urna ante pellentesque orci, non feugiat nisl massa ac ex. Fusce orci lacus, euismod ut tortor non, aliquet tempor turpis. Curabitur bibendum odio et commodo maximus. Vestibulum dui quam, gravida quis iaculis vitae, ultricies non ipsum. Nam suscipit, leo eget fringilla suscipit, tellus orci venenatis velit, eu pretium mauris lorem id metus. Sed semper commodo sapien, in fringilla nibh interdum quis. Nam in leo enim. Integer efficitur blandit velit vitae pulvinar.
+
+\n\nSed vestibulum tellus nec ligula volutpat fringilla. Nulla maximus sit amet sapien pretium ultrices. Mauris porttitor enim fermentum, elementum dui in, euismod sem. Integer ac iaculis purus. Suspendisse ante odio, vestibulum ut molestie vitae, malesuada quis quam. Mauris a neque condimentum, viverra ipsum vel, semper purus. Donec sed venenatis ipsum. Nullam nec lectus a diam tincidunt consectetur. Vivamus et dolor aliquet magna viverra varius sed sed enim. Phasellus vehicula, sapien elementum egestas blandit, justo tellus fermentum nunc, id interdum lacus est ac arcu. Praesent cursus ac mauris eu posuere. Etiam sit amet nulla nec mauris porta maximus.
+
+\n\nDonec enim lectus, commodo a felis ut, sollicitudin vehicula sem. Aenean sodales augue ac ex feugiat efficitur. Sed scelerisque purus hendrerit, molestie dolor et, rhoncus lacus. Cras gravida dapibus sodales. Aenean in elit ac ipsum convallis mollis in quis nulla. Suspendisse mollis finibus ex, lobortis lobortis neque lobortis vitae. Aliquam erat volutpat. Vivamus posuere aliquam velit. In ornare facilisis venenatis. Mauris pharetra hendrerit velit, ut varius massa rutrum eget. Quisque nec finibus lorem. </string>
+    <string name="tandc_title"><![CDATA[Terms & Conditions of Use]]></string>
+    <string name="register_page_placeholder_text">Register and Earn\nrewards and phone bill\nby taking surveys!</string>
+    <string name="email_register_complete">We\'ve received your data and check\nyour email for verification link.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login_intro_header">Login and start taking\nsurveys. Earn More\npoints!</string>
+    <string name="login_intro_register_text"><![CDATA[Don\'t have an account? <b>Register now.</b>]]></string>
+    <string name="emailLogin">Login with Email</string>
+    <string name="facebookLogin">Login with Facebook</string>
+    <string name="or">OR</string>
+
+</resources>
